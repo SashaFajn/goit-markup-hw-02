@@ -79,6 +79,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -138,7 +139,7 @@ a {
 .button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
-  font-weight: 00;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -167,6 +168,6 @@ a {
   background-color: #f4f4fd;
 }
 
-.team-list {
+.team-member {
   background-color: #ffffff;
 }
