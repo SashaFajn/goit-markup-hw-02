@@ -53,8 +53,9 @@ a {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -76,7 +77,7 @@ a {
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -99,18 +100,18 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-logo-part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .text-footer {
@@ -129,19 +130,20 @@ a {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
-  font-weight: 500;
+  font-weight: 00;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -156,4 +158,15 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+.container-three {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
